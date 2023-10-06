@@ -26,6 +26,7 @@ const TAB_DATA = [
             src={HTML}
             width={100}
             height={100}
+            alt="html"
             className="bg-slate-100 p-2 rounded-lg"
           />
         </li>
@@ -34,6 +35,7 @@ const TAB_DATA = [
             src={CSS}
             width={100}
             height={100}
+            alt="css"
             className="bg-slate-100 p-2 rounded-lg"
           />
         </li>
@@ -42,6 +44,7 @@ const TAB_DATA = [
             src={JS}
             width={100}
             height={100}
+            alt="js"
             className="bg-slate-100 p-2 rounded-lg"
           />
         </li>
@@ -50,6 +53,7 @@ const TAB_DATA = [
             src={ReactImg}
             width={100}
             height={100}
+            alt="react"
             className="bg-slate-100 p-2 rounded-lg"
           />
         </li>
@@ -58,6 +62,7 @@ const TAB_DATA = [
             src={NextImg}
             width={100}
             height={100}
+            alt="next"
             className="bg-slate-100 p-2 rounded-lg"
           />
         </li>
@@ -66,6 +71,7 @@ const TAB_DATA = [
             src={TailwindImg}
             width={100}
             height={100}
+            alt="tailwind"
             className="bg-slate-100 p-2 rounded-lg"
           />
         </li>
@@ -74,6 +80,7 @@ const TAB_DATA = [
             src={NodeImg}
             width={100}
             height={100}
+            alt="node"
             className="bg-slate-100 p-2 rounded-lg"
           />
         </li>
@@ -82,6 +89,7 @@ const TAB_DATA = [
             src={MongoImg}
             width={100}
             height={100}
+            alt="mongo"
             className="bg-slate-100 p-2 rounded-lg"
           />
         </li>

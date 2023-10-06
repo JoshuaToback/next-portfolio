@@ -78,18 +78,18 @@ const ProjectsSection = () => {
             initial={{ opacity: 0 }}
             animate={controls}
           >
-            <Image src={promptopia} width={500} height={500} style={imageStyle} />
+            <Image src={promptopia} width={500} height={500} alt="promptopia" style={imageStyle} />
             <h3 className="text-2xl font-bold my-4">Promptopia</h3>
             <p className="text-lg mb-4">A full stack prompt-sharing app.</p>
             <ul className="flex flex-row justify-center space-x-4 my-4">
               <li>
-                <Image src={NextImg} width={100} height={100} />
+                <Image src={NextImg} width={100} height={100} alt="icon" />
               </li>
               <li>
-                <Image src={TailwindImg} width={100} height={100} />
+                <Image src={TailwindImg} width={100} height={100} alt="icon"/>
               </li>
               <li>
-                <Image src={MongoImg} width={100} height={100} />
+                <Image src={MongoImg} width={100} height={100} alt="icon"/>
               </li>
             </ul>
             <div className="flex flex-row space-x-4">
@@ -127,7 +127,7 @@ const ProjectsSection = () => {
             initial={{ opacity: 0 }}
             animate={controls}
           >
-            <Image src={worlds} width={500} height={500} style={imageStyle} />
+            <Image src={worlds} width={500} height={500} alt="metaverse" style={imageStyle} />
             <h3 className="text-2xl font-bold my-4">Metaverse</h3>
             <p className="text-lg mb-4">A single-page app powered by framer-motion.</p>
             <ul className="flex flex-row justify-center space-x-4 my-4">
