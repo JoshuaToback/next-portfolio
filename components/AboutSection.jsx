@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import TabButton from "./TabButton";
 
+import joshua from "@/images/joshua.jpg";
+
 import HTML from "@/images/html5.ico";
 import CSS from "@/images/css.png";
 import JS from "@/images/js.png";
@@ -126,12 +128,13 @@ const AboutSection = () => {
   return (
     <motion.section
       className="text-white"
+      id="about"
       initial="hidden" // Initial animation state
       animate="visible" // Animation state when component is mounted
       variants={fadeInAnimation} // Use the animation properties defined above
     >
       <div className="gap-8 items-center py-8 px-4 xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-16">
-        <Image src="" width={500} height={500} />
+        <Image src={joshua} width={700} height={700} className="rounded-xl"/>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-white texxt-base md:text-lg">
