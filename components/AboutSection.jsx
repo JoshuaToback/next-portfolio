@@ -160,7 +160,7 @@ const AboutSection = () => {
             is to craft seamless, responsive, and user-friendly interfaces that
             not only meet the needs of clients but also exceed the expectations
             of users. I am currently seeking new opportunities to contribute my
-            skills and creativity to innovative projects. Let's collaborate to
+            skills and creativity to innovative projects. Let&apos;s collaborate to
             bring your web vision to life!
           </p>
           <div className="flex flex-row justify-start mt-8">
