@@ -142,15 +142,26 @@ const AboutSection = () => {
       variants={fadeInAnimation} // Use the animation properties defined above
     >
       <div className="gap-8 items-center py-8 px-4 xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-16">
-        <Image src={joshua} width={700} height={700} alt="Joshua" className="rounded-xl"/>
+        <Image
+          src={joshua}
+          width={700}
+          height={700}
+          alt="Joshua"
+          className="rounded-xl"
+        />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-white texxt-base md:text-lg">
-            I am a full stack web developer with a constant drive to learn and
-            grow as a programmer. I have experience working with React.js,
-            Next.js, and many React libraries, as well as Back end technologies
-            like Node.js and MongoDB. I believe that my passion for web
-            development and collaborating with a team can benefit any project.
+            I am a passionate front-end developer with a keen eye for design and
+            a strong commitment to creating exceptional user experiences. With a
+            background in web development and a knack for turning ideas into
+            visually appealing and functional websites, I am constantly
+            exploring the latest technologies and trends in the field. My goal
+            is to craft seamless, responsive, and user-friendly interfaces that
+            not only meet the needs of clients but also exceed the expectations
+            of users. I am currently seeking new opportunities to contribute my
+            skills and creativity to innovative projects. Let's collaborate to
+            bring your web vision to life!
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
