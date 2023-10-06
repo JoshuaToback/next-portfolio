@@ -132,13 +132,13 @@ const ProjectsSection = () => {
             <p className="text-lg mb-4">A single-page app powered by framer-motion.</p>
             <ul className="flex flex-row justify-center space-x-4 my-4">
               <li>
-                <Image src={NextImg} width={100} height={100} />
+                <Image src={NextImg}  alt="icon" width={100} height={100} />
               </li>
               <li>
-                <Image src={TailwindImg} width={100} height={100} />
+                <Image src={TailwindImg}  alt="icon" width={100} height={100} />
               </li>
               <li>
-                <Image src={ReactImg} width={100} height={100} />
+                <Image src={ReactImg} alt="icon" width={100} height={100} />
               </li>
             </ul>
             <div className="flex flex-row space-x-4">
@@ -177,18 +177,18 @@ const ProjectsSection = () => {
             initial={{ opacity: 0 }}
             animate={controls}
           >
-            <Image src={helmsdale} width={500} height={500} style={imageStyle} />
+            <Image src={helmsdale} width={500} height={500} alt="helmsdale" style={imageStyle} />
             <h3 className="text-2xl font-bold my-4">Helmsdale Media</h3>
             <p className="text-lg mb-4">A digital storefront on a custom domain.</p>
             <ul className="flex flex-row justify-center space-x-4 my-4">
               <li>
-                <Image src={ReactImg} width={100} height={100} />
+                <Image src={ReactImg} width={100} height={100} alt="icon"/>
               </li>
               <li>
-                <Image src={CSS} width={100} height={100} />
+                <Image src={CSS} width={100} height={100} alt="icon"/>
               </li>
               <li>
-                <Image src={JS} width={100} height={100} />
+                <Image src={JS} width={100} height={100} alt="icon"/>
               </li>
             </ul>
             <div className="flex flex-row space-x-4">

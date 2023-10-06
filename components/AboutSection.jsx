@@ -134,7 +134,7 @@ const AboutSection = () => {
       variants={fadeInAnimation} // Use the animation properties defined above
     >
       <div className="gap-8 items-center py-8 px-4 xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-16">
-        <Image src={joshua} width={700} height={700} className="rounded-xl"/>
+        <Image src={joshua} width={700} height={700} alt="Joshua" className="rounded-xl"/>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-white texxt-base md:text-lg">
