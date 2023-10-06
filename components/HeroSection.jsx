@@ -37,8 +37,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Joshua Toback is a front-end developer and UI/UX designer based in
-            Los Angeles, CA.
+            Joshua Toback is a front-end developer based in Los Angeles, CA.
           </p>
           <div>
             <Link
