@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React, { useEffect, useRef } from "react";
 import { motion, useAnimation } from "framer-motion";
 import promptopia from "@/images/promptopia.png";
@@ -72,13 +72,14 @@ const ProjectsSection = () => {
         <h2 className="text-4xl font-bold mb-8">Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Project 1 */}
-          <motion.div
-            ref={projectRef}
-            style={projectCardStyle}
-            initial={{ opacity: 0 }}
-            animate={controls}
-          >
-            <Image src={promptopia} width={500} height={500} alt="promptopia" style={imageStyle} />
+          <div>
+            <Image
+              src={promptopia}
+              width={500}
+              height={500}
+              alt="promptopia"
+              style={imageStyle}
+            />
             <h3 className="text-2xl font-bold my-4">Promptopia</h3>
             <p className="text-lg mb-4">A full stack prompt-sharing app.</p>
             <ul className="flex flex-row justify-center space-x-4 my-4">
@@ -86,10 +87,10 @@ const ProjectsSection = () => {
                 <Image src={NextImg} width={100} height={100} alt="icon" />
               </li>
               <li>
-                <Image src={TailwindImg} width={100} height={100} alt="icon"/>
+                <Image src={TailwindImg} width={100} height={100} alt="icon" />
               </li>
               <li>
-                <Image src={MongoImg} width={100} height={100} alt="icon"/>
+                <Image src={MongoImg} width={100} height={100} alt="icon" />
               </li>
             </ul>
             <div className="flex flex-row space-x-4">
@@ -118,24 +119,27 @@ const ProjectsSection = () => {
                 </a>
               </motion.button>
             </div>
-          </motion.div>
+          </div>
 
           {/* Project 2 */}
-          <motion.div
-            ref={projectRef}
-            style={projectCardStyle}
-            initial={{ opacity: 0 }}
-            animate={controls}
-          >
-            <Image src={worlds} width={500} height={500} alt="metaverse" style={imageStyle} />
+          <div>
+            <Image
+              src={worlds}
+              width={500}
+              height={500}
+              alt="metaverse"
+              style={imageStyle}
+            />
             <h3 className="text-2xl font-bold my-4">Metaverse</h3>
-            <p className="text-lg mb-4">A single-page app powered by framer-motion.</p>
+            <p className="text-lg mb-4">
+              A single-page app powered by framer-motion.
+            </p>
             <ul className="flex flex-row justify-center space-x-4 my-4">
               <li>
-                <Image src={NextImg}  alt="icon" width={100} height={100} />
+                <Image src={NextImg} alt="icon" width={100} height={100} />
               </li>
               <li>
-                <Image src={TailwindImg}  alt="icon" width={100} height={100} />
+                <Image src={TailwindImg} alt="icon" width={100} height={100} />
               </li>
               <li>
                 <Image src={ReactImg} alt="icon" width={100} height={100} />
@@ -167,28 +171,31 @@ const ProjectsSection = () => {
                 </a>
               </motion.button>
             </div>
-          </motion.div>
+          </div>
 
           {/* Project 3 */}
 
-          <motion.div
-            ref={projectRef}
-            style={projectCardStyle}
-            initial={{ opacity: 0 }}
-            animate={controls}
-          >
-            <Image src={helmsdale} width={500} height={500} alt="helmsdale" style={imageStyle} />
+          <div>
+            <Image
+              src={helmsdale}
+              width={500}
+              height={500}
+              alt="helmsdale"
+              style={imageStyle}
+            />
             <h3 className="text-2xl font-bold my-4">Helmsdale Media</h3>
-            <p className="text-lg mb-4">A digital storefront on a custom domain.</p>
+            <p className="text-lg mb-4">
+              A digital storefront on a custom domain.
+            </p>
             <ul className="flex flex-row justify-center space-x-4 my-4">
               <li>
-                <Image src={ReactImg} width={100} height={100} alt="icon"/>
+                <Image src={ReactImg} width={100} height={100} alt="icon" />
               </li>
               <li>
-                <Image src={CSS} width={100} height={100} alt="icon"/>
+                <Image src={CSS} width={100} height={100} alt="icon" />
               </li>
               <li>
-                <Image src={JS} width={100} height={100} alt="icon"/>
+                <Image src={JS} width={100} height={100} alt="icon" />
               </li>
             </ul>
             <div className="flex flex-row space-x-4">
@@ -217,7 +224,7 @@ const ProjectsSection = () => {
                 </a>
               </motion.button>
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>
