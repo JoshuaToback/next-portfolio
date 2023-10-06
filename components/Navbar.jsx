@@ -8,8 +8,8 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[#121212] text-white">
       <div className="container mx-auto px-12 py-4 flex justify-between items-center">
-        <div className="text-white font-light text-xl md:text-2xl">JOSHUA TOBACK</div>
-        <ul className="flex space-x-6">
+        <div className="text-white font-light text-lg md:text-2xl">JOSHUA TOBACK</div>
+        <ul className="flex space-x-4">
           <li>
             <Link
               to="about"
