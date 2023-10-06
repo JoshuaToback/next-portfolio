@@ -30,7 +30,8 @@ const EmailSection = () => {
         </div>
       </div>
       <div className="z-10">
-        <form className="flex flex-col">
+        {/* Use mailto attribute to open the default email client */}
+        <form className="flex flex-col" action="mailto:joshuatobackdev@gmail.com" method="post" encType="text/plain">
           <div className="mb-6">
             <label
               htmlFor="email"
@@ -41,7 +42,6 @@ const EmailSection = () => {
             <input
               type="email"
               id="email"
-              required
               className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
               placeholder="yourname@google.com"
             />
@@ -56,7 +56,6 @@ const EmailSection = () => {
             <input
               type="text"
               id="subject"
-              required
               className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
               placeholder="Just saying hi"
             />
