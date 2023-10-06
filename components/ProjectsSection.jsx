@@ -93,7 +93,7 @@ const ProjectsSection = () => {
                 <Image src={MongoImg} width={100} height={100} alt="icon" />
               </li>
             </ul>
-            <div className="flex flex-row space-x-4">
+            <div className="flex flex-row items-center justify-center space-x-4">
               <motion.button
                 className="bg-gradient-to-r from-blue-400 to-blue-600 hover:from-blue-600 hover:to-blue-800 text-white py-2 px-4 rounded"
                 whileHover={{ scale: 1.05 }}
@@ -145,7 +145,7 @@ const ProjectsSection = () => {
                 <Image src={ReactImg} alt="icon" width={100} height={100} />
               </li>
             </ul>
-            <div className="flex flex-row space-x-4">
+            <div className="flex flex-row items-center justify-center space-x-4">
               <motion.button
                 className="bg-gradient-to-r from-blue-400 to-blue-600 hover:from-blue-600 hover:to-blue-800 text-white py-2 px-4 rounded"
                 whileHover={{ scale: 1.05 }}
@@ -198,7 +198,7 @@ const ProjectsSection = () => {
                 <Image src={JS} width={100} height={100} alt="icon" />
               </li>
             </ul>
-            <div className="flex flex-row space-x-4">
+            <div className="flex flex-row items-center justify-center space-x-4">
               <motion.button
                 className="bg-gradient-to-r from-blue-400 to-blue-600 hover:from-blue-600 hover:to-blue-800 text-white py-2 px-4 rounded"
                 whileHover={{ scale: 1.05 }}
